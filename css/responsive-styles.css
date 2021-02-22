@@ -1,0 +1,19 @@
+﻿@charset "UTF-8";
+/* CSS Document */
+
+@media only screen 
+  and (min-width: 320px) 
+  and (max-width: 767px) 
+  
+  {
+	.column-2x, .column-3x, col-2x { float:none; width:100%;}
+	 nav { display:none;}
+	.button-cnt { width:310px; height:190px; overflow: hidden; float:none; margin:20px auto; cursor:pointer; } 
+	.contact-headline img { text-align:center; display:block; float:none; vertical-align: middle;  }
+	.contact-headline h1  { text-align:center; display:block; float:none; font-size:60px; color:black; }
+	.lightSlider>li>a>img { width: 100%; height:auto;}
+
+.slider .cover img{ width:100%; height:auto; }
+.slider .cover { overflow:hidden; padding:38px 50px; }
+
+  }
