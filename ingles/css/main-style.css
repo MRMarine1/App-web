@@ -193,8 +193,8 @@ a.active:after      { transform: rotate(45deg); -webkit-transition: all 0.2s eas
     position: absolute;
     top: 15px;
     right: 35px;
-    color: #f1f1f1;
-    font-size: 40px;
+    color: red;
+    font-size: 70px;
     font-weight: bold;
     transition: 0.3s;
 }
