@@ -14,6 +14,7 @@ body {
     background-size: cover;
     /* Damos un color de fondo mientras la imagen está cargando  */
     background-color: #464646;
+ 
 }
 
 
@@ -26,7 +27,7 @@ body {
 .col-2 { text-align:justify; font-size:14px; padding:15px 0px; -webkit-column-count: 2; -moz-column-count: 2; column-count: 2; }
 
 /* CONTAINERS */
-.anchor { display:block; height: 90px; margin-top:-90px; visibility:hidden; }
+.anchor { display:block; height: 90px; margin-top:-90px auto; visibility:hidden; }
 
 .banner img { width:100%; height:auto; }
 .banner.margin-top { margin:50px 0;}
